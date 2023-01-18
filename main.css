@@ -1,0 +1,111 @@
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.container-card{
+    width: 90%;
+    height: 65vh;
+    background-color: #E0E3E3;
+    border-radius: 10px;
+    overflow: hidden;
+    flex-direction: column;
+    padding-bottom: 100px;
+}
+
+.container-card-title{
+    padding-left: 5%;
+    width: 95%;
+    height: 15%;
+    display: flex;
+    align-items: center;
+    border-bottom: 0.5px dotted #000;
+}
+
+.container-card-title-text{
+    font-size: 2rem;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 5px;
+}
+
+.container-card-carrousel{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 40px 0px;
+    overflow: scroll;
+}
+
+
+/* Carrousel Item */
+.container-card-carrousel-item{
+    width: 23%;
+    height: 60%;
+    background-color: #788787;
+    border-radius: 10px;
+    margin: 10px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.container-card-carrousel-item-photo{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+}
+.container-card-carrousel-item-photo-img{
+    height: 100%;
+}
+.container-card-carrousel-item-desc{
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    background-color: #AEB7B7;
+}
+.container-card-carrousel-item-desc-price{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.container-card-carrousel-item-desc-price-text{
+    font-size: 1.3rem;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 3px;
+    font-weight: 700;
+    padding-left: 40px;
+}
+.container-card-carrousel-item-desc-title{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.container-card-carrousel-item-desc-title-text{
+    font-size: 1.3rem;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    padding-right: 40px;
+}
+
+@media (max-width: 600px)
+{
+    .container-card-carrousel-item{
+        width: 70%;
+        height: 60%;
+        background-color: #788787;
+        border-radius: 10px;
+        margin: 10px;
+        overflow: hidden;
+        cursor: pointer;
+    }
+}
